@@ -1,0 +1,4 @@
+def pig_latin(word):
+    return word + 'way' if word[0] in 'aeiouAEIOU' else word[1:] + word[0] + 'ay'
+print(pig_latin("hello"))  
+print(pig_latin("apple"))
